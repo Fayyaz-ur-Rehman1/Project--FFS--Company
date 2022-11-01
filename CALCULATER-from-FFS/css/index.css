@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: rgba(247, 217, 161, 0.713);
+}
+.calculater{
+    width: 330px;
+    background: wheat;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73 ,
+    2px 2px 5px rgba(10, 18, 32, 0.949);
+}
+form .result{
+    height: 60px;
+    width: 100%;
+    background: #080d1459;
+    border-radius: 5px;
+    box-shadow: inset -3px -3px 7px #ffffff73 ,
+                inset 2px 2px 5px rgba(94,104,121,0.288);
+}
+.result input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none; 
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: right;
+    color: #e9e4e4;
+    pointer-events: none;
+    font-family: 'poppins' , sans-serif;
+}
+form .buttons{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.buttons input[type="button"]{
+    height: 56px;
+    width: 56px;
+    font-size: 23px;
+    margin: 4px;
+    border: none;
+    outline: none;  
+    background: #0b0c0d;
+    border-radius: 5px;
+    color: #fbf5f5;
+    box-shadow:-3px -3px 7px #ffffff73 ,
+                2px 2px 5px rgba(94,104,121,0.288);
+}
+@keyframes example{
+    20%   {background-color: rgb(243, 129, 229);}
+    30%  {background-color: rgb(251, 0, 255);}
+    35%  {background-color: brown;}
+    40%  {background-color: rgba(43, 255, 0, 0.94);}
+    100% {background-color: green;}
+}
+.buttons input:hover{
+    color: #dde1e7;
+    animation: example;
+    animation-duration: 5s;
+}
+.buttons input[type="button"]:focus{
+    box-shadow:inset -3px -3px 7px #ffffff73 ,
+   inset 2px 2px 5px rgba(94,104,121,0.288);
+   color: #3498db;
+   transform: scale(0.9);
+}
+button{
+    background-color: wheat;
+    color: #b12626;
+    color: ;
+    border: none;
+    margin-left: -210PX;
+    font-size: 30px;
+    
+}
+a{
+    color: #0b0c0d;
+}
